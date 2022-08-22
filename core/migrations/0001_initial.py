@@ -25,4 +25,12 @@ class Migration(migrations.Migration):
                 ('nome', models.CharField(max_length=50)),
             ],
         ),
+        migrations.CreateModel(
+            name='Carro',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('nome', models.CharField(max_length=50)),
+            ],
+        ),
+        
     ]
